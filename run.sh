@@ -1,7 +1,7 @@
 # BOFormer
 for ft in RBF_0.05 matern52_0.05; do
     echo python q_value_transformer_testing_offpolicy.py \
-    --f_num 2 --T 100 --function_type $ft --device 2 --model_episode 3000 --initial_sample 1  --record_idx 4 --n_positions 31 --n_layer 8 --n_head 4
+    --f_num 2 --T 100 --function_type $ft --device 2 --model_episode 3000 --initial_sample 1  --record_idx 0 --n_positions 31 --n_layer 8 --n_head 4
 done | xargs -d '\n' -P 2 -I {} sh -c '{}'
 
 for ft in BCD; do

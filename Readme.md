@@ -5,7 +5,7 @@
 conda create -n seq_qt python=3.9.7
 conda activate seq_qt
 conda install git pip
-pip install numpy==1.26.3 (1.23.4 for RBF)
+pip install numpy==1.23.4 (1.23.4 for RBF)
 pip install platypus-opt
 pip install git+https://github.com/naught101/sobol_seq@v0.2.0#egg=sobol_seq
 pip install pymoo~=0.5.0
