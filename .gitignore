@@ -7,7 +7,7 @@ __pycache__/
 args.txt
 records/*
 runs/*
-BOFormer_models/*
+BOFormer_testings/*
 models/*
 Decision_Transformer/tb_record/*
 20240518_backup1/*
