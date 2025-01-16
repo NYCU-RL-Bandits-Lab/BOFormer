@@ -9,7 +9,7 @@ conda activate boo
 conda install git pip -y
 
 # Install Python packages with specific versions
-pip install numpy==1.23.4
+pip install numpy==1.26.4
 pip install platypus-opt
 pip install git+https://github.com/naught101/sobol_seq@v0.2.0#egg=sobol_seq
 pip install pymoo~=0.5.0
@@ -36,3 +36,6 @@ conda install torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
 
 # For CUDA 11.8
 # conda install torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+
+# Finally install numpy 1.23.4 for reproduce
+pip install numpy==1.23.4
