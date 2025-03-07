@@ -1,23 +1,18 @@
-# BOFormer
+### Paper Link
+https://openreview.net/forum?id=UnCKU8pZVe&noteId=UnCKU8pZVe
 
-### Env installation 
+### Environment Installation
 ```
-Run install.sh for creating conda environment 
+Run install.sh to set up the Conda environment.
 
+#### Installing OptFormer
+pip install sentencepiece
+
+#### Installing qTransformer
+pip install transformers==4.12.1
 ```
+
 ### Usage
 ```
-python Q_value_Transformer/q_value_transformer.py # Traning
-python Q_value_Transformer/q_value_transformer_testing_offpolicy.py # Testing
-# Use data.ipynb to see the result
-```
-
-### optformer
-```
-pip install sentencepiece
-```
-
-### qTransformer
-```
-pip install transformers==4.12.1
+Refer to run.sh for additional scripts and usage details.
 ```
